@@ -28,7 +28,7 @@ const tortoise = {
  * Q1. What's the name of the dog?
  */
 
-dogName = dog.name;
+const dogName = dog.name;
 
 console.log("The dog's name is " + dogName);
 
@@ -38,7 +38,7 @@ console.log("The dog's name is " + dogName);
  * Q2. What breed is the cat?
  */
 
-catBreed = cat.breed;
+const catBreed = cat.breed;
 
 console.log("The cat is a " + catBreed);
 
@@ -57,7 +57,7 @@ console.log(tortoise)
  * Q4. How many different colours is Poppy?
  */
 
-dogColourCount = dog.colours.length;
+const dogColourCount = dog.colours.length;
 
 console.log("The dog has " + dogColourCount + " different colours");
 
@@ -91,7 +91,7 @@ console.log(tortoise);
  * Q7. What's the combined age of all the pets?
  */
 
-totalPetAge = dog.age + cat.age + tortoise.age + parrot.age;
+const totalPetAge = dog.age + cat.age + tortoise.age + parrot.age;
 
 console.log("The total age of the pets is " + totalPetAge);
 
